@@ -21,6 +21,7 @@ public class MouseOperations {
 		driver.manage().window().maximize();
 		//Launch Browser and Open URL
 		driver.get("https://the-internet.herokuapp.com/iframe");
+		System.out.println(driver.getTitle());
 		Thread.sleep(3000);
 		WebElement firstFrame = driver.findElement(By.id("mce_0_ifr"));
 		
