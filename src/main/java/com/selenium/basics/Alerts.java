@@ -24,13 +24,13 @@ public class Alerts {
 		
 		//driver.findElement(By.xpath("//button[normalize-space()='Click for JS Alert']")).click();
 		
-		/*driver.findElement(By.xpath("//button[normalize-space()='Click for JS Confirm']")).click();
+		driver.findElement(By.xpath("//button[normalize-space()='Click for JS Confirm']")).click();
 		Thread.sleep(3000);
 		driver.switchTo().alert().accept();
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[normalize-space()='Click for JS Confirm']")).click();
 		Thread.sleep(3000);
-		driver.switchTo().alert().dismiss();*/
+		driver.switchTo().alert().dismiss();
 		
 		
 		
